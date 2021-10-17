@@ -62,3 +62,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
   * The unit-length vector p=[𝑝_1,𝑝_2,𝑝_3 ],  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
     ![image](https://user-images.githubusercontent.com/86009768/137616615-7649c953-b2a9-4e6e-bf1d-e3e454b02f0a.png)	
 
+* 3D - VBAP for more than three loudspeakers
+  * The active triangle of base should not be intersecting.
+  * The active triangle should be selected so that maximum localization accuracy in each direction is provided. 
+  * Three loudspeakers are selected according to the active triangle where the virtual source is located.
