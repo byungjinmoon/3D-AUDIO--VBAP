@@ -99,4 +99,11 @@ Sound sources are driven by coherent electrical signals with different amplitude
 
      ![image](https://user-images.githubusercontent.com/86009768/137618065-481b163f-7ec1-467e-819c-9d6841be4573.png)
     
+  * Moving source 
+    * Simulation process
+      ![image](https://user-images.githubusercontent.com/86009768/137618600-8f4534cf-54e7-4ead-be2b-4855594b7542.png)
+      1. After dividing the sound source into 360 frames (1~360 degrees), select the two loudspeakers for each frame angle.
+      2. After finding g1 and g2 with VBAP method, do Amplitude panning.
+      3. Apply the same method from the first frame (1 degree) to the last frame (360 degree).
+      * Implement is possible by calculating only the gains at the desired position without using a filter.
     
