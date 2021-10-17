@@ -105,5 +105,5 @@ Sound sources are driven by coherent electrical signals with different amplitude
       1. After dividing the sound source into 360 frames (1~360 degrees), select the two loudspeakers for each frame angle.
       2. After finding g1 and g2 with VBAP method, do Amplitude panning.
       3. Apply the same method from the first frame (1 degree) to the last frame (360 degree).
-      *Implementation is possible by calculating only the gains at the desired position without using a filter.
+      (*Implementation is possible by calculating only the gains at the desired position without using a filter.)
     
