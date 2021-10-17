@@ -74,7 +74,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
 
 # Experimental results
 
-### 2D VBAP
+### 2D VBAP implementation
 
 * Function
 1. Localization
