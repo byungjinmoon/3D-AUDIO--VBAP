@@ -61,7 +61,8 @@ Sound sources are driven by coherent electrical signals with different amplitude
   * The base is defined by unit−length vectors "  𝑙〗_1=[𝑙_(11 , ) 𝑙_12, 𝑙_13  ], 𝑙_2=[ 𝑙_21  , 𝑙_22  , 𝑙_23  ], 𝑙_3=[𝑙_31, 𝑙_32,𝑙_33]  which are pointing toward loudspeaker 1 ,2 and 3.
   * The unit-length vector p=[𝑝_1,𝑝_2,𝑝_3 ],  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
     ![image](https://user-images.githubusercontent.com/86009768/137616615-7649c953-b2a9-4e6e-bf1d-e3e454b02f0a.png)	
-
+ 
+ * Spherical coordinate system
     ![image](https://user-images.githubusercontent.com/86009768/137617364-c8d18dd8-2944-445d-bff4-f946060bc0d6.png)
 
 * 3D - VBAP for more than three loudspeakers
