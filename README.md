@@ -77,11 +77,11 @@ Sound sources are driven by coherent electrical signals with different amplitude
 ### 2D VBAP
 
 * Function
-  1. Localization
-    - 0 ~ 360 dgree
-  2. Moving source
-    - clockwise
-    - counterclockwise 
+	1. Localization
+   	 - 0 ~ 360 dgree
+  	2. Moving source
+   	 - clockwise
+   	 - counterclockwise 
 
   * Localization 
     Simulation process
