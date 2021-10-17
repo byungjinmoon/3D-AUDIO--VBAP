@@ -69,3 +69,34 @@ Sound sources are driven by coherent electrical signals with different amplitude
   * The active triangle of base should not be intersecting.
   * The active triangle should be selected so that maximum localization accuracy in each direction is provided. 
   * Three loudspeakers are selected according to the active triangle where the virtual source is located.
+
+
+
+# Experimental results
+
+### 2D VBAP
+
+* Function
+  1. Localization
+    - 0 ~ 360 dgree
+  2. Moving source
+    - clockwise
+    - counterclockwise 
+
+  * Localization 
+    Simulation process
+    1. Calculation gain1, gain2
+
+    2. Use HRTF database (Convolution input & HRIR)
+       Loudspeaker_90 = [Left_90 , Right_90] (matrix) 
+       Loudspeaker_120 = [Left_120,Right_120] (matrix) 
+    
+    3. Amplitude panning
+      Loudspeaker_90 * gain1,
+      Loudspeaker_120 * gain2
+
+    4. Loudspeaker_90 * gain1 +  Loudspeaker_120 * gain2 = [Left_Virtual Source, Right_Virtual Source] (matrix) 
+
+     ![image](https://user-images.githubusercontent.com/86009768/137618065-481b163f-7ec1-467e-819c-9d6841be4573.png)
+    
+    
