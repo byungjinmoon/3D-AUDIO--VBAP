@@ -107,3 +107,26 @@ Sound sources are driven by coherent electrical signals with different amplitude
       3. Apply the same method from the first frame (1 degree) to the last frame (360 degree).
       (Implementation is possible by calculating only the gains at the desired position without using a filter.)
     
+
+### 3D VBAP implemeatation and GUI
+* Speakers layout
+  ![image](https://user-images.githubusercontent.com/86009768/137618874-e1071e14-029f-4d18-a853-65a3ab0773a0.png)
+* Simulation process
+1. Virtual source 
+   azimuth : 35 °  , elevation : 10 °
+   Active triangle = 𝐿_126
+   𝑔_1, 𝑔_2, 𝑔_6 with Spherical Coordinate
+
+2. Use HRTF database (Convolution input & HRIR)                            
+   L1 = [Left_1 , Right_1](matrix) 
+   L2 = [Left_2 , Right_2] (matrix) 
+   L6 = [Left_6 , Right_6](matrix) 
+
+3. Amplitude panning
+   L1 * 𝑔_1
+   L2 * 𝑔_2
+   L6 * 𝑔_6
+ 
+4. L1 * 𝑔_1  + L2 * 𝑔_2 + L6 * 𝑔_6
+        = [Left_Virtual Source, Right_Virtual Source] 
+
