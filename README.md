@@ -33,6 +33,18 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
   * The unit-length vector p= 〖"[" 𝑝_1,𝑝_2]〗^ , which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
   ![image](https://user-images.githubusercontent.com/86009768/137613277-687545f7-957d-4d64-8fc6-54ae46394fb6.png)
 
+* 2D - VBAP for more than two loudspeakers
+  ![image](https://user-images.githubusercontent.com/86009768/137613484-da645842-6a35-49fd-8ed6-f4f7f431739d.png)
+  * The selected bases would be L_12 ,L_23, L_34, L_45, and L_51.
+  * A system for virtual source positioning  is similary uses only two loudspeakers at an one time.
+  * The virtual source can be produced by the loudspeaker base on the active arc of which the virtual source is located. 
+  * When the sound moves from one pair to another, the gain factor of the loudspeaker, which is not used after the change becomes gradually zero before the change-over point.
 
+* Implementation 2D VBAP for More than two loudspeakers
+ 
+	 1. New direction vectors P(1.....n ) are defined. 
+	 2. The right pairs are selected. 
+	 3. The new gain factors are calculated. 
+	 4. The old gain factors are cross faded to new ones and the loudspeaker bases are changed if necessary.
 
 
