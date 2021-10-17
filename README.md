@@ -31,7 +31,6 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
   * Two loudspeakers are positioned symmetrically with respect to the median plane.
   * The base is defined by unit-length vectors 𝑙_1=〖[𝑙_11,𝑙_12]〗^  𝑎𝑛𝑑〖 𝑙〗_2=〖[𝑙_21,𝑙_22]〗^ which are pointing toward loudspeaker 1 and 2.
   * The unit-length vector p= 〖"[" 𝑝_1,𝑝_2]〗^ , which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
-![image](https://user-images.githubusercontent.com/86009768/137613272-b9047f86-8181-4474-8492-06e6ee743b7a.png)
   ![image](https://user-images.githubusercontent.com/86009768/137613277-687545f7-957d-4d64-8fc6-54ae46394fb6.png)
 
 
