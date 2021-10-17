@@ -110,7 +110,8 @@ Sound sources are driven by coherent electrical signals with different amplitude
 
 ### 3D VBAP implemeatation and GUI
 * Speakers layout
-  ![image](https://user-images.githubusercontent.com/86009768/137618874-e1071e14-029f-4d18-a853-65a3ab0773a0.png)
+ 
+ ![image](https://user-images.githubusercontent.com/86009768/137618874-e1071e14-029f-4d18-a853-65a3ab0773a0.png)
 
 * Simulation process
 1. Virtual source <br/>
