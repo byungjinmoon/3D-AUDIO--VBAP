@@ -47,4 +47,18 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
 	 3. The new gain factors are calculated. 
 	 4. The old gain factors are cross faded to new ones and the loudspeaker bases are changed if necessary.
 
+### 3D VBAP
+3D VBAP is the method which can be applied to loudspeaker triangle of any shape. 
+The gain factors are calculated similarly as in 2D case.
+It needs to be a 'mesh' based on triangles, as any individual sound can only exist between the nearest three points. 
+Third loudspeaker placed in an arbitrary position at the same distance from the listener as the other loudspeakers.
+The virtual source can now within a triangle formed by the loudspeakers when viewed from the listener's position.
+Sound sources are driven by coherent electrical signals with different amplitudes.
+
+![image](https://user-images.githubusercontent.com/86009768/137615835-ba9c554b-95fd-46a8-86c8-efbd51e4ade0.png)
+
+* Vector Base Formulation
+  * The base is defined by unit−length vectors "  𝑙〗_1=[𝑙_(11 , ) 𝑙_12, 𝑙_13  ], 𝑙_2=[ 𝑙_21  , 𝑙_22  , 𝑙_23  ], 𝑙_3=[𝑙_31, 𝑙_32,𝑙_33]  which are pointing toward loudspeaker 1 ,2 and 3.
+  * The unit-length vector p=[𝑝_1,𝑝_2,𝑝_3 ],  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
+    ![image](https://user-images.githubusercontent.com/86009768/137616615-7649c953-b2a9-4e6e-bf1d-e3e454b02f0a.png)	
 
