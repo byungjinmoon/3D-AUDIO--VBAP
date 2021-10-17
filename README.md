@@ -84,7 +84,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
    - counterclockwise 
 
   * Localization 
-    Simulation process
+    * Simulation process
     1. Calculation gain1, gain2
 
     2. Use HRTF database (Convolution input & HRIR)
