@@ -120,9 +120,9 @@ Sound sources are driven by coherent electrical signals with different amplitude
    𝑔_1, 𝑔_2, 𝑔_6 with Spherical Coordinate 
 
 2. Use HRTF database (Convolution input & HRIR)                             
-   L1 = [Left_1 , Right_1](matrix) <br/>
-   L2 = [Left_2 , Right_2] (matrix) <br/>
-   L6 = [Left_6 , Right_6](matrix) <br/>
+   L1 = [Left_1, Right_1](matrix) <br/>
+   L2 = [Left_2, Right_2] (matrix) <br/>
+   L6 = [Left_6, Right_6](matrix) <br/>
 
 3. Amplitude panning
    L1 * 𝑔_1 <br/>
