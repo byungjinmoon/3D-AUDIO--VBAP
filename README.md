@@ -80,8 +80,8 @@ Sound sources are driven by coherent electrical signals with different amplitude
 1. Localization
    - 0 ~ 360 dgree
 2. Moving source
-   	 - clockwise
-   	 - counterclockwise 
+   - clockwise
+   - counterclockwise 
 
   * Localization 
     Simulation process
