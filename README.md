@@ -78,8 +78,8 @@ Sound sources are driven by coherent electrical signals with different amplitude
 
 * Function
 1. Localization
-2. - 0 ~ 360 dgree
-  	2. Moving source
+   - 0 ~ 360 dgree
+2. Moving source
    	 - clockwise
    	 - counterclockwise 
 
