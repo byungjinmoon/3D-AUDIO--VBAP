@@ -111,6 +111,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
 ### 3D VBAP implemeatation and GUI
 * Speakers layout
   ![image](https://user-images.githubusercontent.com/86009768/137618874-e1071e14-029f-4d18-a853-65a3ab0773a0.png)
+
 * Simulation process
 1. Virtual source <br/>
    azimuth : 35 °  , elevation : 10 ° <br/>
@@ -129,4 +130,9 @@ Sound sources are driven by coherent electrical signals with different amplitude
  
 4. L1 * 𝑔_1  + L2 * 𝑔_2 + L6 * 𝑔_6
         = [Left_Virtual Source, Right_Virtual Source] 
+
+* GUI
+
+![image](https://user-images.githubusercontent.com/86009768/137619147-8a0ca701-845b-4e63-8223-db2fb128ec71.png)
+
 
