@@ -26,7 +26,7 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
 
 ![image](https://user-images.githubusercontent.com/86009768/137612970-bb925a34-1567-4b69-9a46-592ba8600b88.png)
 
-* Vector Base Formulation
+* Vector Base Formulation([image from research][research])
   * The two-channel stereophonic loudspeaker configuration is formulated as a two-dimensional vector base.
   * Two loudspeakers are positioned symmetrically with respect to the median plane.
   * The base is defined by unit-length vectors 𝑙_1=〖[𝑙_11,𝑙_12]〗^  𝑎𝑛𝑑〖 𝑙〗_2=〖[𝑙_21,𝑙_22]〗^ which are pointing toward loudspeaker 1 and 2.
