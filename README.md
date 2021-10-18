@@ -22,7 +22,7 @@ Vector Base Amplitude Panning (VBAP) is a method for positioning virtual sources
 
 ### 2D VBAP
 In 2-D VBAP the virtual source vector p is set to be a sum of weighted loudspeaker vectors l1 and l2.
-After the weights g1 and g2 have been calculated and normalized, they can be used as gain factors of each channel.
+After the weights g1 and g2 have been calculated and normalized, they can be used as gain factors of each channel. ([image from research][research])
 
 ![image](https://user-images.githubusercontent.com/86009768/137612970-bb925a34-1567-4b69-9a46-592ba8600b88.png)
 
