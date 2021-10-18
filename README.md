@@ -58,7 +58,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
 ![image](https://user-images.githubusercontent.com/86009768/137615835-ba9c554b-95fd-46a8-86c8-efbd51e4ade0.png)
 
 * Vector Base Formulation ([image from research][research])
-  * The base is defined by unit−length vectors " <img src="https://render.githubusercontent.com/render/math?math=l_{1}= [l_{11},l_{12}, l_{13}],l_{2}= [l_{21},l_{22}, l_{23}],l_{3}= [l_{31},l_{32}, l_{33}] ">  which are pointing toward loudspeaker 1 ,2 and 3.
+  * The base is defined by unit−length vectors  <img src="https://render.githubusercontent.com/render/math?math=l_{1}= [l_{11},l_{12}, l_{13}],l_{2}= [l_{21},l_{22}, l_{23}],l_{3}= [l_{31},l_{32}, l_{33}] ">  which are pointing toward loudspeaker 1 ,2 and 3.
   * The unit-length vector <img src="https://render.githubusercontent.com/render/math?math=p= [p_{1},p_{2},p_{3}] ">,  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
     ![image](https://user-images.githubusercontent.com/86009768/137616615-7649c953-b2a9-4e6e-bf1d-e3e454b02f0a.png)	
  
