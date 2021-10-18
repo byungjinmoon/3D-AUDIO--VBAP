@@ -41,7 +41,7 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
   * The virtual source can be produced by the loudspeaker base on the active arc of which the virtual source is located. 
   * When the sound moves from one pair to another, the gain factor of the loudspeaker, which is not used after the change becomes gradually zero before the change-over point.
 
-* Implementation 2D VBAP for More than two loudspeakers
+* Implementation 2D VBAP for more than two loudspeakers
  
 	 1. New direction vectors P(1.....n ) are defined. 
 	 2. The right pairs are selected. 
