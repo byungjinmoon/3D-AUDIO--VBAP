@@ -138,7 +138,7 @@ Sound sources are driven by coherent electrical signals with different amplitude
 ![image](https://user-images.githubusercontent.com/86009768/137619147-8a0ca701-845b-4e63-8223-db2fb128ec71.png)
 
 1. In GUI, upload your music or voice.
-2. Click the location of the sound.
+2. Click the location of the sound source.
 3. Set the elevation.
 4. Press the play button.
 
