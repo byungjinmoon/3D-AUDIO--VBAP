@@ -34,6 +34,7 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
   ![image](https://user-images.githubusercontent.com/86009768/137613277-687545f7-957d-4d64-8fc6-54ae46394fb6.png)
 
 * 2D - VBAP for more than two loudspeakers
+
   ![image](https://user-images.githubusercontent.com/86009768/137613484-da645842-6a35-49fd-8ed6-f4f7f431739d.png)
   * The selected bases would be L_12 ,L_23, L_34, L_45, and L_51.
   * A system for virtual source positioning  is similary uses only two loudspeakers at an one time.
