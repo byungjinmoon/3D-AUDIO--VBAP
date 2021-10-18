@@ -47,7 +47,7 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
 	 3. The new gain factors are calculated. 
 	 4. The old gain factors are cross faded to new ones and the loudspeaker bases are changed if necessary.
 
-### 3D VBAP
+### 3D VBAP ([image from research][research])
 3D VBAP is the method which can be applied to loudspeaker triangle of any shape. 
 The gain factors are calculated similarly as in 2D case.
 It needs to be a 'mesh' based on triangles, as any individual sound can only exist between the nearest three points. 
