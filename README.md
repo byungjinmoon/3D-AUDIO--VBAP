@@ -29,8 +29,8 @@ After the weights g1 and g2 have been calculated and normalized, they can be use
 * Vector Base Formulation([image from research][research])
   * The two-channel stereophonic loudspeaker configuration is formulated as a two-dimensional vector base.
   * Two loudspeakers are positioned symmetrically with respect to the median plane.
-  * The base is defined by unit-length vectors 𝑙_1=〖[𝑙_11,𝑙_12]〗^  𝑎𝑛𝑑〖 𝑙〗_2=〖[𝑙_21,𝑙_22]〗^ which are pointing toward loudspeaker 1 and 2.
-  * The unit-length vector p= 〖"[" 𝑝_1,𝑝_2]〗^ , which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
+  * The base is defined by unit-length vectors <img src="https://render.githubusercontent.com/render/math?math=l_{1}= [l_{11},l_{12}] and l_{2}= [l_{21},l_{22}] "> which are pointing toward loudspeaker 1 and 2.
+  * The unit-length vector <img src="https://render.githubusercontent.com/render/math?math=p= [p_{1},p_{2}] "> , which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
   ![image](https://user-images.githubusercontent.com/86009768/137613277-687545f7-957d-4d64-8fc6-54ae46394fb6.png)
 
 * 2D - VBAP for more than two loudspeakers
@@ -58,8 +58,8 @@ Sound sources are driven by coherent electrical signals with different amplitude
 ![image](https://user-images.githubusercontent.com/86009768/137615835-ba9c554b-95fd-46a8-86c8-efbd51e4ade0.png)
 
 * Vector Base Formulation ([image from research][research])
-  * The base is defined by unit−length vectors "  𝑙〗_1=[𝑙_(11 , ) 𝑙_12, 𝑙_13  ], 𝑙_2=[ 𝑙_21  , 𝑙_22  , 𝑙_23  ], 𝑙_3=[𝑙_31, 𝑙_32,𝑙_33]  which are pointing toward loudspeaker 1 ,2 and 3.
-  * The unit-length vector p=[𝑝_1,𝑝_2,𝑝_3 ],  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
+  * The base is defined by unit−length vectors " <img src="https://render.githubusercontent.com/render/math?math=l_{1}= [l_{11},l_{12}, l_{13}],l_{2}= [l_{21},l_{22}, l_{23}],l_{3}= [l_{31},l_{32}, l_{33}] ">  which are pointing toward loudspeaker 1 ,2 and 3.
+  * The unit-length vector <img src="https://render.githubusercontent.com/render/math?math=p= [p_{1},p_{2},p_{3}] ">,  which points toward the virtual source can be treated as a linear combination of loudspeaker vectors.
     ![image](https://user-images.githubusercontent.com/86009768/137616615-7649c953-b2a9-4e6e-bf1d-e3e454b02f0a.png)	
  
   * *Spherical coordinate system
